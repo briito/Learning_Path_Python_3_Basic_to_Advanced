@@ -1,0 +1,29 @@
+python3 -m venv .venv
+
+source .venv/bin/activate 
+
+pip install -r requirements.txt => para recriar o ambiente
+
+echo $VIRTUAL_ENV
+
+pip freeze
+
+pip install requests
+
+pip list
+
+pip install mysql-connector
+
+pip install --upgrade setuptools
+
+pip install --upgrade pip
+
+sudo apt-get install libpq-dev
+
+pip list outdated => para verificar se existe algum pacote desatualizado
+
+deactivate
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY '1234';
+
+mysql -u root -p => Para entra no mySQL

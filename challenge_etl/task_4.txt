@@ -1,0 +1,3 @@
+Filme(s) mais frequente(s) e sua respectiva frequência:
+
+The Avengers: 5
